@@ -22,5 +22,5 @@ class Solution:
             
         return left
 
-# Lab Note: This is a 'K-Duplicate' sliding window pattern.
+# Lab Note: This is a 'Two Pointers' pattern with a K-step lookback.
 # For 'at most K duplicates', change the index to 'left - K'.
