@@ -10,6 +10,7 @@ This repository serves as an **Artifact-First Proof of Mastery**. Every director
 
 | Module | Focus | Output Type |
 |---|---|---|
+| [`/DSA`](./DSA) | Patterns (Two Pointers, Sliding Window, etc.) | `.py` solutions + Pattern deep dives |
 | [`/sql`](./sql) | Join logic, CTEs, Window functions, Query Optimization | `.sql` drills + performance notes |
 | [`/systems`](./systems) | OS internals, memory management, process models, profiling | `.py` scripts + profiling logs |
 | [`/networking`](./networking) | TCP/UDP, WebSockets, Load Balancing, Network Resilience | Capture logs + experiment postmortems |
