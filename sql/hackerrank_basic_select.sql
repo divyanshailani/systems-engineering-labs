@@ -49,3 +49,26 @@ SELECT DISTINCT city
 FROM station 
 WHERE LEFT(city, 1) NOT IN ('a', 'e', 'i', 'o', 'u')
    AND RIGHT(city, 1) NOT IN ('a', 'e', 'i', 'o', 'u');
+
+---------------------------------------------------------
+
+-- Problem: Higher Than 75 Marks
+-- Query the Name of any student in STUDENTS who scored higher than 75 Marks. 
+-- Order by the last three characters of each name, secondary sort by ascending ID.
+
+SELECT Name 
+FROM STUDENTS 
+WHERE Marks > 75 
+ORDER BY RIGHT(Name, 3) ASC, ID ASC;
+
+---------------------------------------------------------
+
+-- Problem: Employee Salaries
+-- Query a list of employee names for employees in Employee having a salary greater than $2000 per month 
+-- who have been employees for less than 10 months. Sort by ascending employee_id.
+
+SELECT name 
+FROM Employee 
+WHERE salary > 2000 
+  AND months < 10 
+ORDER BY employee_id ASC;
